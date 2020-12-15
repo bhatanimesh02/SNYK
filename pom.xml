@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.1.RELEASE</version>
+        <version>2.3.9.RELEASE</version>
     </parent>
     <!-- Demo of github webhooks for Hello World sample project-->
     <!-- Additional lines to be added here... -->
@@ -19,11 +19,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-                       <groupId>org.apache.tomcat.embed</groupId>
-                       <artifactId>tomcat-embed-core</artifactId>
-                       <version>9.0.40</version>
-               </dependency>
+        
         
           
         <dependency>
